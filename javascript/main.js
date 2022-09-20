@@ -123,14 +123,89 @@ VI DU (bai tap 2):
 // }
 
 // bai tap 3: in ra man hinh tong cua cac item ben trong mang
-let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-let result = 0;
-// result: 45
-for (let i = 0; i < array.length; i++) {
-  result += array[i];
-}
+// let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let result = 0;
+// // result: 45
+// for (let i = 0; i < array.length; i++) {
+//   result += array[i];
+// }
+//
+// console.log(result);
 
-console.log(result);
+// let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let result = 0;
+// for (let a = 0; a < array.length; a++){
+//   result += array[a]
+// }
 
+// compare ==> return boolean
+// > greater; < smaller; == or === equal; >= greater equal; <= smaller equal
 
+// condition operator
+// if...else
+// if (a > 10) {
+// // logic
+//   console.log("a greater than 10");
+// } else if (a > 5) {
+//   console.log("a greater than 5");
+// } else {
+//   console.log("finish");
+// }
 
+// switch...case
+// string, number
+// ==, ===
+// switch (a) {
+//   case 10:
+//     // login
+//     console.log("equal 10");
+//     break;
+//   case 20: {
+//     console.log("equal 20");
+//     break;
+//   }
+// }
+
+// let a = 0;
+// let b = a > 10 ? a : 10; // return number
+// let c = a > 10; // return boolean
+// let d = a || "abc"; // or
+// let e = a ?? "abc";
+
+// if (a > 10) {
+//   b = a;
+// } else {
+//   b = 1;
+// }
+
+// if (a > 10) {
+//   c = true;
+// } else {
+//   c = false;
+// }
+
+// if (a) {
+//   d = a;
+// } else {
+//   d = "abc";
+// }
+
+// function
+// function declaration
+// function nameFunction() {
+//   // logic
+//   console.log("hello world");
+// }
+//
+// // function expression
+// const functionExpression = function () {
+//   // logic
+//   console.log("hello world");
+// };
+//
+//
+// // arrow function
+// const arrowFunction = () => {
+//   // logic
+//   console.log("hello world");
+};
