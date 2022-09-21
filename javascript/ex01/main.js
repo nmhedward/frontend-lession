@@ -2,13 +2,26 @@
 // - Neu a hoac b khong co gia tri thi hien thi hien thi alert
 // - In ket qua ra man hinh
 
-const elementNumA = document.getElementById(inputNumA).value;
-const elementNumB = document.getElementById(inputNumB).value;
-const calculatePlus = elementNumA + elementNumB;
-const calculateMinus = elementNumA - elementNumB;
-const calculateMulti = elementNumA * elementNumB;
-const calculateDivise = elementNumA / elementNumB;
+function calcuSum() {
+  numA = document.getElementById("inputNumA").value;
+  numB = document.getElementById("inputNumB").value;
+  document.getElementById('result').innerHTML = Math.round(numA + numB);
+}
 
-function calculatePlus() {
-  document.getElementById(result).innerHTML = calculatePlus;
+function calcuSubtract() {
+  numA = document.getElementById("inputNumA").value;
+  numB = document.getElementById("inputNumB").value;
+  document.getElementById('result').innerHTML = numA - numB;
+}
+
+function calcuMulti() {
+  numA = document.getElementById("inputNumA").value;
+  numB = document.getElementById("inputNumB").value;
+  document.getElementById('result').innerHTML = numA * numB;
+}
+
+function calcuDevide() {
+  numA = document.getElementById("inputNumA").value;
+  numB = document.getElementById("inputNumB").value;
+  document.getElementById('result').innerHTML = numA / numB;
 }

@@ -8,7 +8,6 @@
 //   const elementColor = document.getElementById("fullName").value;
 //   const elementNeedChangeColor = document.getElementById("background");
 //   const elementShowColorInput = document.getElementById("result");
-//
+// //
 //   elementNeedChangeColor.style.backgroundColor = elementColor;
 //   elementShowColorInput.innerHTML = `<h1>${elementColor}</h1>`;
-}
