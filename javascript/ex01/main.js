@@ -5,7 +5,7 @@
 function calcuSum() {
   numA = document.getElementById("inputNumA").value;
   numB = document.getElementById("inputNumB").value;
-  document.getElementById('result').innerHTML = Math.round(numA + numB);
+  document.getElementById('result').innerHTML = Number(numA) +Number(numB);
 }
 
 function calcuSubtract() {
